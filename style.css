@@ -1,0 +1,53 @@
+body {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ADDC7E;
+    width: auto;
+    max-width: 100%;
+		margin: 0;
+		padding: 0;
+
+  }
+
+  h2 {
+    text-align: center;
+    color: #4D4343;
+    font-size: 46px;
+  }
+
+  .fruits {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 60px 120px;
+
+
+  }
+
+  .fruitsolo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid whitesmoke;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    width: 160%;
+    height: 100%;
+    background-color: white;
+    padding: 10%;
+  }
+
+  p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  .stock {
+    font-size: 16px;
+  }
+
+  .nom {
+    font-size: 22px;
+  }
